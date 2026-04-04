@@ -1,0 +1,139 @@
+main {
+    gap: 5em;
+}
+
+main section.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.description p {
+    text-indent: 2em;
+    font-family: monocole, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: clamp(1rem, 1.3vw, 1.5rem);
+    line-height: 2.5em;
+    padding: 1em;
+    width: 50%;
+}
+
+main section.description p::first-letter {
+    font-size: 2.5em;
+    font-family: aspire, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main section#wardrobe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    height: 50%;
+    width: 100%;
+}
+
+main section#wardrobe > h2 {
+    position: absolute;
+    z-index: 100;
+    align-self: center;
+    margin-top: clamp(10%, 25%, 30%);
+}
+
+main section#wardrobe video {
+    height: 50%;
+    width: inherit;
+    opacity: 0.7;
+}
+
+/*Learned the next two rulesets from: https://www.youtube.com/watch?v=9yVzCfe3LOM */
+
+figure#img-map h2 {
+    font-family: seglade, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-wrap: balance;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 0.5em;
+}
+
+figure#img-map h2::before,
+figure#img-map h2::after {
+    content: "";
+    height: 2px;
+    display: block;
+}
+
+figure#img-map > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure#img-map h3 {
+    font-family: kimora, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: clamp(1.2em, 2.2vw, 3.2em);
+    width: fit-content;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+figure#img-map p {
+    font-family: monocole, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: clamp(1rem, 1.3vw, 1.5rem);
+}
+
+figure#img-map img {
+   height:auto; 
+   width: 100%;
+   border: 0.5em double;
+   padding: 1em;
+}
+ 
+#img-map map area.blazer:hover {
+   cursor: url('/images/cursors/dress-shirt-2.cur'), auto;
+}
+
+#img-map map area.button-down:hover {
+   cursor: url('/images/cursors/dress-shirt.cur'), auto;
+}
+
+#img-map map area.tie:hover {
+   cursor: url('/images/cursors/bowtie.cur'), auto;
+}
+
+#img-map map area.pocket-square:hover {
+   cursor: url('/images/cursors/cloth.cur'), auto;
+}
+
+@media screen and (min-width: 998px) {
+    section p {
+        text-align: left;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    figure#img-map h2::before,
+    figure#img-map h2::after {
+        background-color: var(--color-white);
+    }
+    figure#img-map h3 {
+        border-color: var(--color-white);
+    }
+    figure#img-map img {
+        border-color: var(--color-white);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    figure#img-map h2::before,
+    figure#img-map h2::after {
+        background-color: var(--color-onyx);
+    }
+    figure#img-map h3 {
+        border-color: var(--color-onyx);
+    }
+    figure#img-map img {
+        border-color: var(--color-onyx);
+    }
+}
