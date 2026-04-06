@@ -26,13 +26,6 @@ container.style.left = -offset + 'px';
 
 // Set a timeout
 setTimeout (() => {
-    
-    slideImg.forEach(Img => {
-                console.log[slideID + "Hello!!!"];
-                    //Reset all slides order
-
-                    Img.classList.remove('current');
-            });
 
     // Remove container transition
     container.style.transiton = "none";
@@ -40,12 +33,6 @@ setTimeout (() => {
     // Move the current slide to the last position
     slides[slideID].style.order = slides.length - 1;
     
-    // If the slide ID is greater than 0
-    if (slideID > 0) {
-        // Remove current class from the current slide
-        slideImg[slideID].classList.remove('current');
-    }
-
     // Move the container back to the starting position
     container.style.left = 0;
  
@@ -56,7 +43,6 @@ setTimeout (() => {
         if(slideID === slides.length && slideID > 0) {
          
             // Set slide ID to 0.
-            slideImg[slideID - 1].classList.remove('current');
             slideID = 0;
 
            
