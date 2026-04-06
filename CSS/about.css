@@ -90,6 +90,9 @@ figure#img-map img {
    padding: 1em;
 }
 
+figure#img-map map area:hover {
+    cursor: pointer;
+}
 @media screen and (min-width: 998px) {
     section p {
         text-align: left;
