@@ -89,22 +89,6 @@ figure#img-map img {
    border: 0.5em double;
    padding: 1em;
 }
- 
-#img-map map area.blazer:hover {
-   cursor: url('/images/cursors/dress-shirt-2.cur'), auto;
-}
-
-#img-map map area.button-down:hover {
-   cursor: url('/images/cursors/dress-shirt.cur'), auto;
-}
-
-#img-map map area.tie:hover {
-   cursor: url('/images/cursors/bowtie.cur'), auto;
-}
-
-#img-map map area.pocket-square:hover {
-   cursor: url('/images/cursors/cloth.cur'), auto;
-}
 
 @media screen and (min-width: 998px) {
     section p {
