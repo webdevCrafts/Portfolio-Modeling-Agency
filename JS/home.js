@@ -12,14 +12,6 @@ let offset = 0;
 let slideID = 0;
 
 let intervalId = setInterval(() => {
-
- let prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
- 
-  if (prefersReducedMotion.matches) {
-     console.log("Slideshow Paused");
-     clearInterval(intervalId);
-     
- }
  
 // Set offset to side width 
 offset = slides[0].offsetWidth;
@@ -64,5 +56,14 @@ setTimeout (() => {
              
         }
     }, 500);
+
+  let prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+ 
+  if (prefersReducedMotion.matches) {
+     console.log("Slideshow Paused");
+     clearInterval(intervalId);
+     
+ }
+ 
 },2500);
 
