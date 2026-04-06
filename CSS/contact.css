@@ -77,6 +77,8 @@ form#contact-form div.input-container textarea {
 form#contact-form div.input-container textarea {
     border: none;
     padding: 0.5em;
+    min-width: 75%;
+    max-width: 100%;
 }
 
 form#contact-form div.input-container div.input-container input#submit {
