@@ -14,11 +14,11 @@ let burgerIcon = document.querySelector('#burger-menu img');
   // Is light mode on?
   if (lightModeMediaQuery.matches) {
     console.log("light mode detected: changing burger menu icon to black");
-    burgerIcon.src = '../images/icons/black-burger-menu.png';
+    burgerIcon.src = '../icons/black-burger-menu.png';
 } else {
   // Is dark mode on?
     console.log("dark mode detected: changing burger menu icon to white");
-    burgerIcon.src = '../images/icons/white-burger-menu.png';
+    burgerIcon.src = '../icons/white-burger-menu.png';
 }
 
 // Burger Menu Variables
