@@ -39,7 +39,7 @@ div#contact-container > figure figcaption {
 }
 
 div#contact-container form#contact-form{
-    background-image: url('../images/contact/clothing.jpg');
+    background-image: url('../contact-pg-imgs/clothing.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
