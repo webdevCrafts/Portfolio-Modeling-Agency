@@ -109,7 +109,7 @@ div.text-block.intro a.learn-button:focus {
 figure#pic-gallery {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     overflow-x: scroll;
     padding: 1em;
     margin: 0;
