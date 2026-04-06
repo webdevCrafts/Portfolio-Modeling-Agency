@@ -41,23 +41,6 @@ div.slideshow .slide img {
     object-fit: cover;
     object-position: center;
     border-radius: 1em;
-    opacity: 0.5;
-}
-
-div.slideshow .slide img.current {
-    animation: fadein 2s infinite;
-    scale: 1.1;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-    scale: 0.5;
-}
-  to {
-    opacity: 1;
-    scale:1;
-}
 }
 
 main>section#top-content {
