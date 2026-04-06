@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: kimora;
     src: url('../Fonts/kimora-font/Kimora-3lVPZ.otf');
 }
@@ -16,7 +16,7 @@
 @font-face {
     font-family: aspire;
     src: url('../Fonts/aspire-font/AspireDemibold-YaaO.ttf');
-} */
+}
 
 /* Global Colors (My Color Pallete)*/
 :root {
