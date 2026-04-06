@@ -110,7 +110,7 @@ figure#pic-gallery {
     display: flex;
     flex-direction: row;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: scroll;
     padding: 1em;
     margin: 0;
 }
