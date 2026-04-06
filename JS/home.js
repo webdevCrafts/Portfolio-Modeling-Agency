@@ -75,6 +75,7 @@ setTimeout (() => {
 let prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
  if (prefersReducedMotion.matches) {
+    console.log("Slideshow Paused");
     clearInterval(intervalId);
     
 }
