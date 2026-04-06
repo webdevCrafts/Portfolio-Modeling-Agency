@@ -48,14 +48,6 @@ setTimeout (() => {
 
     // Move the container back to the starting position
     container.style.left = 0;
-
-/* The code below attempts to add a "focus" effect on the center
-image of the carousel, but I haven't been able to figure it out
-because when I try to add the "current class" when I increment 
-the slideID, the last image in the array is "undefined."*/
-// console.log(slideImg[slideID]);
-// slideImg[slideID + 1].classList.add('current');
- 
  
     // Increment Slide ID
     slideID++;
