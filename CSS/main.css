@@ -277,7 +277,7 @@ a#back-top-button:focus {
 }
 
 footer {
-    background-image: url('/images/homepics/homepic-green-marble-bg.png');
+    background-image: url('../homepics/homepic-green-marble-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
