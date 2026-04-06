@@ -24,6 +24,16 @@ container.style.transition = "left ease-in-out 500ms";
 // Move slides container by negative offset
 container.style.left = -offset + 'px';
 
+
+let prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+ if (prefersReducedMotion.matches) {
+    console.log("Slideshow Paused");
+    clearInterval(intervalId);
+    
+}
+    
+    
 // Set a timeout
 setTimeout (() => {
 
@@ -57,12 +67,3 @@ setTimeout (() => {
     }, 500);
 },2500);
 
-
-let prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-
- if (prefersReducedMotion.matches) {
-    console.log("Slideshow Paused");
-    clearInterval(intervalId);
-    
-}
-    
