@@ -24,6 +24,7 @@ form#model-application {
 
 form#model-application > p {
    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+   margin-left: 0.5em;
 }
 
 section.guidelines {
