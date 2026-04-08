@@ -47,7 +47,8 @@ main>section#top-content {
      display: flex;
      flex-direction: column;
      gap: 5em;
-     background: linear-gradient(70deg, var(--color-onyx), var(--color-onyx), var(--color-dusty-aqua) );
+     background: linear-gradient(70deg, var(--color-onyx), var(--color-onyx), var(--color-dusty-aqua));
+     max-width: 100vw;
 }
 
 div.text-block.intro {
@@ -213,7 +214,8 @@ div.text-block.characteristics p {
         width: 100%;
         justify-items: center;
         align-items: center;
-        overflow-x: none;
+        overflow-x: auto;
+        padding: 0;
     }
 }
 
