@@ -7,6 +7,7 @@ form#model-application {
    display: flex;
    flex-direction: column;
    gap: 2em;
+   width: 100vw;
 }
 
 form#model-application > p {
@@ -124,6 +125,11 @@ form#model-application div.form-buttons input:focus {
    color: var(--color-white);
    border-color: var(--color-dusty-aqua);
    cursor: pointer;
+}
+
+@media screen and (min-width: 778px) {
+   form#model-application fieldset.info {
+   padding: 3em;
 }
 
 @media (prefers-color-scheme: light) {
