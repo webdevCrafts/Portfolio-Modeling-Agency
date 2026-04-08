@@ -314,8 +314,12 @@ form.subscribe > div {
 
 form.subscribe > div > div {
     display: flex;
-    flex-wrap: wrap;
     gap: 0.5em;
+}
+
+form.subscribe > div > div input#subscribe {
+    height: 50%;
+    align-self: end;
 }
 
 footer section#resources {
