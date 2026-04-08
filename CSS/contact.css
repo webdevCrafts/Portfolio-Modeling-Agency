@@ -21,6 +21,7 @@ div#contact-container > figure img {
     grid-column: 1/1;
     height: auto; 
     width: 500px;
+    max-width: 100vw;
 }
 
 div#contact-container > figure figcaption {
