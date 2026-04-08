@@ -110,9 +110,9 @@ figure#pic-gallery {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    overflow-x: scroll;
     padding: 1em;
     margin: 0;
+    overflow-x: scroll;
 }
 
 figure#pic-gallery a img {
@@ -213,6 +213,7 @@ div.text-block.characteristics p {
         width: 100%;
         justify-items: center;
         align-items: center;
+        overflow-x: none;
     }
 }
 
