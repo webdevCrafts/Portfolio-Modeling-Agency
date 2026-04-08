@@ -100,7 +100,6 @@ input#submit:focus {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        gap: 5em;
     }
 }
 
