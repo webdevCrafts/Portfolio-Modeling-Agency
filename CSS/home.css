@@ -112,7 +112,7 @@ figure#pic-gallery {
     width: 100vw;
     padding: 1em;
     margin: 0;
-    overflow-x: scroll;
+    overflow: auto;
 }
 
 figure#pic-gallery a img {
