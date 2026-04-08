@@ -58,6 +58,7 @@ form#model-application fieldset.info {
    border-bottom: none;
    border-left: none;
    border-right: none;
+   padding: 0;
 }
 
 form#model-application legend {
